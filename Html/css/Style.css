@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', 'sans serif';
+}
+
+/*::::Pie de Pagina::::*/
+
+.pie-pagina {
+	width: 100%;
+	background-color: #00377d;
+}
+
+.pie-pagina .g1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	pad: 45px 0px;
+}
+.pie-pagina .g1 .box figure {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-pagina .g1 .box figure img {
+	width: 250px;
+}
+.pie-pagina .g1 .box h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pie-pagina .g1 .box p {
+	color: #efefef;
+	margin-bottom: 10px;
+}
+.pie-pagina .g1 .box .red-social a {
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-pagina .g1 .box .red-social a:hover {
+	color: aqua;
+}
+
+.pie-pagina .g2 {
+	background-color: #0a1a2a;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+.pie-pagina .g2 small {
+	font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+	.pie-pagina .g1 {
+		width: 90%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		pad: 35px 0px;
+	}
+}
+.imagen {
+	height: 600px;
+	width: 500px;
+}
+
+.cartas {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
